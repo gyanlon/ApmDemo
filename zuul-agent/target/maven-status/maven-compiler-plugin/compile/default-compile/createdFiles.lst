@@ -1,0 +1,5 @@
+com/oyo/apm/javaagent/ZuulServletFilterInterceptor.class
+Main.class
+com/oyo/apm/javaagent/ZuulAgent.class
+com/oyo/apm/javaagent/ZuulAgent$1.class
+com/oyo/apm/javaagent/ZuulAgent$2.class

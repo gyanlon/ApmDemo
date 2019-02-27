@@ -1,0 +1,8 @@
+server:
+  port: 5000
+  application:
+    name: gateway
+
+spring:
+  session:
+    store-type: none
