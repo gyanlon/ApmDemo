@@ -1,5 +1,6 @@
 
 ### 1, Agent打包
+把所有相关的lib打到一个大包里
 
 pom.xml
 ````
@@ -39,7 +40,14 @@ pom.xml
 ````
 mvn clean compile assembly:single
 ````
+---
+Change zuul-agent/target/zuul-agent-1.0-SNAPSHOT-jar-with-dependencies.jar to zuul-agent/target/zuul-agent-1.0-SNAPSHOT.jar
 
 ### 2, Agent使用
--
+--
  -javaagent:/Users/oyo/Develop/workspace/ApmDemo/zuul-agent/target/zuul-agent-1.0-SNAPSHOT.jar
+
+
+### 3, Test
+
+http://localhost:8080/zuul/xxx

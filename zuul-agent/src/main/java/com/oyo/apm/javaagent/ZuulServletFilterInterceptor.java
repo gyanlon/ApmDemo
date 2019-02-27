@@ -25,7 +25,6 @@ public class ZuulServletFilterInterceptor {
         if (args.length >= 2 && args[1] instanceof HttpServletResponse) {
             HttpServletResponse res = (HttpServletResponse) args[1];
             System.out.println(res.getStatus());
-
         }
 
         return call;
